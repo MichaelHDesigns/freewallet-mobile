@@ -78,7 +78,7 @@
             "path": "resources/js/mnemonic.js",
             "update": "delta"
         },{
-            "path": "resources/js/bitcore-lib.min.js",
+            "path": "resources/js/helpthehomeless-lib.min.js",
             "update": "delta"
         },{
             "path": "resources/js/bitcore-message.min.js",
