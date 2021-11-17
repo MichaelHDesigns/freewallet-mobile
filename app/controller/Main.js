@@ -39,17 +39,17 @@ Ext.define('FW.controller.Main', {
         // Define default server/host settings
         FW.SERVER_INFO    = {
             mainnet: {
-                cpHost: 'public.coindaddy.io',          // Counterparty Host
-                cpPort: 4001,                           // Counterparty Port
-                cpUser: 'rpc',                          // Counterparty Username
-                cpPass: '1234',                         // Counterparty Password
+                cpHost: '127.0.0.1',          // Counterparty Host
+                cpPort: 3001,                           // Counterparty Port
+                cpUser: 'helpthehomeless',                          // Counterparty Username
+                cpPass: 'local321',                         // Counterparty Password
                 cpSSL: true                             // Counterparty SSL Enabled (true=https, false=http)
             },
             testnet: {
                 cpHost: 'public.coindaddy.io',          // Counterparty Host
                 cpPort: 14001,                          // Counterparty Port
-                cpUser: 'rpc',                          // Counterparty Username
-                cpPass: '1234',                         // Counterparty Password
+                cpUser: 'helpthehomeless',                          // Counterparty Username
+                cpPass: 'local321',                         // Counterparty Password
                 cpSSL: true                             // Counterparty SSL Enabled (true=https, false=http)
             }                           
         };
